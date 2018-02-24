@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bootcamp.mumbaitourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArchitectureActivity"
+            android:label="@string/architecture" />
+        <activity
+            android:name=".MuseumActivity"
+            android:label="@string/museum" />
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="@string/restaurants" />
+        <activity
+            android:name=".EventActivity"
+            android:label="@string/events" />
+        <activity android:name=".DescriptionActivity"></activity>
+
+        <activity android:name=".ArchitectureDescriptionActivity">
+            
+        </activity>
+    </application>
+
+</manifest>
