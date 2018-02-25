@@ -1,5 +1,5 @@
 # MumbaiTourGuide
-## Udacity Androird Fundation 1 Final Project
+## Udacity Android Fundation 1 Final Project
 
  ![screenshot_20180225-201602](https://user-images.githubusercontent.com/26532939/36642753-05071eb2-1a6a-11e8-8729-afa4bb6f6988.jpg) ![screenshot_20180225-201614](https://user-images.githubusercontent.com/26532939/36642754-0531f31c-1a6a-11e8-9374-7a70f32bf04e.jpg)
 
