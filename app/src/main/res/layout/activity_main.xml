@@ -1,67 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.bootcamp.mumbaitourguide.MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:paddingBottom="@dimen/alignValue"
+        android:paddingTop="@dimen/alignValue">
 
         <LinearLayout
             android:layout_width="match_parent"
-            style="@style/layoutMain">
-            <ImageView
-                android:id="@+id/architecture_image"
-                style="@style/ImagesInMainActivity"
-                android:src="@mipmap/ic_account_balance_black_24dp" />
-            <TextView
-                android:id="@+id/architecture_text"
-                style="@style/TextInMainActivity"
-                android:text="@string/architecture" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            style="@style/layoutMain">
-            <ImageView
-                android:id="@+id/museum_image"
-                style="@style/ImagesInMainActivity"
-                android:src="@mipmap/ic_account_balance_black_24dp" />
-            <TextView
-                android:id="@+id/museum_text"
-                style="@style/TextInMainActivity"
-                android:text="@string/museum"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            style="@style/layoutMain">
-            <ImageView
-                android:id="@+id/restaurants_image"
-                style="@style/ImagesInMainActivity"
-                android:src="@mipmap/ic_restaurant_black_24dp"
-                />
-            <TextView
-                android:id="@+id/restaurants_text"
-                style="@style/TextInMainActivity"
-                android:text="@string/restaurants"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            style="@style/layoutMain">
-            <ImageView
-                android:id="@+id/events_image"
-                style="@style/ImagesInMainActivity"
-                android:src="@mipmap/ic_event_black_24dp"/>
-            <TextView
-                android:id="@+id/events_text"
-                style="@style/TextInMainActivity"
-                android:text="@string/events"/>
-        </LinearLayout>
-    </LinearLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+            <LinearLayout
+                style="@style/layoutMain"
+                android:layout_width="match_parent">
 
+                <ImageView
+                    android:id="@+id/architecture_image"
+                    style="@style/ImagesInMainActivity"
+                    android:src="@mipmap/ic_account_balance_black_24dp" />
 
+                <TextView
+                    android:id="@+id/architecture_text"
+                    style="@style/TextInMainActivity"
+                    android:text="@string/architecture" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layoutMain"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:id="@+id/museum_image"
+                    style="@style/ImagesInMainActivity"
+                    android:src="@mipmap/ic_account_balance_black_24dp" />
+
+                <TextView
+                    android:id="@+id/museum_text"
+                    style="@style/TextInMainActivity"
+                    android:text="@string/museum" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layoutMain"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:id="@+id/restaurants_image"
+                    style="@style/ImagesInMainActivity"
+                    android:src="@mipmap/ic_restaurant_black_24dp" />
+
+                <TextView
+                    android:id="@+id/restaurants_text"
+                    style="@style/TextInMainActivity"
+                    android:text="@string/restaurants" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layoutMain"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:id="@+id/events_image"
+                    style="@style/ImagesInMainActivity"
+                    android:src="@mipmap/ic_event_black_24dp" />
+
+                <TextView
+                    android:id="@+id/events_text"
+                    style="@style/TextInMainActivity"
+                    android:text="@string/events" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
 </ScrollView>

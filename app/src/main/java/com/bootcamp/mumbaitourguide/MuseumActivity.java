@@ -1,9 +1,8 @@
 package com.bootcamp.mumbaitourguide;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -41,7 +40,7 @@ public class MuseumActivity extends AppCompatActivity {
                 //Get the {@link museum} object at the given position the user is clicked on
                 Info museum= museums.get(i);
 
-                Intent descriptionIntent = new Intent(MuseumActivity.this,DescriptionActivity.class);
+                Intent descriptionIntent = new Intent(MuseumActivity.this, MuseumDescriptionActivity.class);
                 descriptionIntent.putExtra("museum",museum.getmName());
                 descriptionIntent.putExtra("museum_desc",museum.getmDescription());
                 descriptionIntent.putExtra("museum_image",museum.getmImageResourceId());

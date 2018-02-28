@@ -1,9 +1,8 @@
 package com.bootcamp.mumbaitourguide;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -21,10 +20,10 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         // Create an ArrayList of Info objects
         final ArrayList<Info> restaurants = new ArrayList<Info>();
-        restaurants.add(new Info(R.drawable.csmvs1,getString(R.string.csmvs),getString(R.string.csmvs_desc)));
-        restaurants.add(new Info(R.drawable.nsc1,getString(R.string.nsc),getString(R.string.nsc_desc)));
-        restaurants.add(new Info(R.drawable.gag1,getString(R.string.jag),getString(R.string.jag_desc)));
-        restaurants.add(new Info(R.drawable.ngma1,getString(R.string.ngoma),getString(R.string.ngoma_desc)));
+        restaurants.add(new Info(R.drawable.oberoi1, getString(R.string.oberoi), getString(R.string.oberoi_desc)));
+        restaurants.add(new Info(R.drawable.yauatcha, getString(R.string.yauatcha), getString(R.string.yauatcha_desc)));
+        restaurants.add(new Info(R.drawable.celini, getString(R.string.celini), getString(R.string.celini_desc)));
+        restaurants.add(new Info(R.drawable.bethemekong, getString(R.string.btm), getString(R.string.btm_desc)));
 
         // Create an {@link InfoAdapter}, whose data source is a list of
         // {@link Info}s. The adapter knows how to create list item views for each item

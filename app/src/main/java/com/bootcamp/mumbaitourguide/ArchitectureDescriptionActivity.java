@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 /**
  * Created by MANU on 2/25/2018.
+ * This activity shows the description of the architecture
  */
 
 public class ArchitectureDescriptionActivity extends AppCompatActivity {
